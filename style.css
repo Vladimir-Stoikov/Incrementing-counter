@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blueviolet;
+  font-family: 'Glory', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.counters {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 30px;
+  letter-spacing: 2px;
+}
+
+.counter i {
+  font-size: 40px;
+  margin: 0 0 15px 0;
+}
+
+.counter h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.counter h4 {
+  margin: 0;
+}
+
+@media (max-width: 645px) {
+  .counters {
+    flex-direction: column;
+  }
+
+  .counter {
+    margin: 20px auto;
+  }
+}
